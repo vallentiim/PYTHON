@@ -1,0 +1,7 @@
+reais= float(input('Quantos reais você tem na carteira? '))
+dolares= (reais/5.09)
+euro= (reais/5.22)
+ienes= (reais/0.038)
+print('Com {} reais, é possível comprar {:.2f} doláres'.format(reais, dolares))
+print('Com {} reais, é possível comprar {:.2f} euros'.format(reais, euro))
+print('Com {} reais, é possível comprar {:.2f} ienes'.format(reais, ienes))

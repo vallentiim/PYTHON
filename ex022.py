@@ -1,0 +1,7 @@
+nome= str(input('Escreva seu nome: ')).strip()
+nome_dividido= nome.split()
+print('Analisando seu nome... ')
+print('Seu nome em letras maiúsculas é ==> {}.'.format(nome.upper()))
+print('Seu nome em letras minúsculas é ==> {}.'.format(nome.lower()))
+print('Seu nome tem ao total ==> {} letras.'.format(len(nome)-nome.count(' ')))
+print('Seu primerio nome é {}, e ele tem {} letras.'.format(nome_dividido[0], len(nome_dividido[0])))
